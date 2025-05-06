@@ -1,0 +1,187 @@
+[
+    {
+      "id": "app001",
+      "name": "Programming Hero",
+      "developer": "Programming Hero Ltd.",
+      "thumbnail": "https://i.ibb.co/sWbb4Z5/programming-hero-thumb.jpg",
+      "banner": "https://i.ibb.co/vj5rT68/programming-hero-banner.jpg",
+      "downloads": 3500000,
+      "category": "Education",
+      "rating": 4.8,
+      "description": "Programming Hero is a fun and interactive way to learn programming. Whether you're a beginner or looking to brush up your skills, this app makes learning to code exciting and practical.",
+      "features": [
+        "Interactive coding lessons",
+        "Real-world projects",
+        "Gamified learning experience"
+      ],
+      "reviews": [
+        {
+          "user": "coder_nadia",
+          "rating": 5,
+          "comment": "Best app for beginners! The lessons are super easy to follow and engaging."
+        }
+      ]
+    },
+    {
+      "id": "app002",
+      "name": "FocusFlow",
+      "developer": "Zen Productivity Inc.",
+      "thumbnail": "https://i.ibb.co/02vc0tc/focusflow-thumb.jpg",
+      "banner": "https://i.ibb.co/6WzDNhx/focusflow-banner.jpg",
+      "downloads": 1250000,
+      "category": "Productivity",
+      "rating": 4.6,
+      "description": "FocusFlow helps you manage time and tasks using the Pomodoro technique. Boost your productivity while staying focused and stress-free.",
+      "features": [
+        "Pomodoro timer",
+        "Daily productivity reports",
+        "Custom task manager"
+      ],
+      "reviews": [
+        {
+          "user": "taskmaster_joe",
+          "rating": 5,
+          "comment": "Amazing productivity booster! The timer and reports keep me disciplined."
+        }
+      ]
+    },
+    {
+      "id": "app003",
+      "name": "GameRush",
+      "developer": "SpeedPixel Studios",
+      "thumbnail": "https://i.ibb.co/hfJ6ZbT/gamerush-thumb.jpg",
+      "banner": "https://i.ibb.co/vZkWJxz/gamerush-banner.jpg",
+      "downloads": 2000000,
+      "category": "Gaming",
+      "rating": 4.5,
+      "description": "GameRush is your all-in-one mobile gaming hub with hundreds of arcade games to kill time and challenge your skills.",
+      "features": [
+        "Hundreds of games",
+        "Leaderboard system",
+        "Multiplayer mode"
+      ],
+      "reviews": [
+        {
+          "user": "arcade_lord",
+          "rating": 4,
+          "comment": "Super addictive! Great for short breaks and chilling out."
+        }
+      ]
+    },
+    {
+      "id": "app004",
+      "name": "EduMate",
+      "developer": "SmartEd Technologies",
+      "thumbnail": "https://i.ibb.co/bBtL9yk/edumate-thumb.jpg",
+      "banner": "https://i.ibb.co/PZDL2CK/edumate-banner.jpg",
+      "downloads": 1100000,
+      "category": "Education",
+      "rating": 4.7,
+      "description": "EduMate provides personalized learning paths, quizzes, and resources for students from grade 6 to 12.",
+      "features": [
+        "Adaptive learning modules",
+        "Instant quiz feedback",
+        "Offline access"
+      ],
+      "reviews": [
+        {
+          "user": "learn_wise",
+          "rating": 5,
+          "comment": "Very effective for school students. Highly recommended!"
+        }
+      ]
+    },
+    {
+      "id": "app005",
+      "name": "TaskHawk",
+      "developer": "TaskHawk LLC",
+      "thumbnail": "https://i.ibb.co/9GHrC7y/taskhawk-thumb.jpg",
+      "banner": "https://i.ibb.co/ZSmBMhS/taskhawk-banner.jpg",
+      "downloads": 870000,
+      "category": "Productivity",
+      "rating": 4.4,
+      "description": "Organize your tasks and boost your efficiency. TaskHawk makes team collaboration and goal tracking a breeze.",
+      "features": [
+        "Smart task management",
+        "Team collaboration",
+        "Goal tracking"
+      ],
+      "reviews": [
+        {
+          "user": "plan_pro",
+          "rating": 4,
+          "comment": "Helps me manage both personal and team tasks very well."
+        }
+      ]
+    },
+    {
+      "id": "app006",
+      "name": "BrainBoost",
+      "developer": "NeuroLab",
+      "thumbnail": "https://i.ibb.co/1GpGjW1/brainboost-thumb.jpg",
+      "banner": "https://i.ibb.co/5KhcCJB/brainboost-banner.jpg",
+      "downloads": 950000,
+      "category": "Education",
+      "rating": 4.3,
+      "description": "Sharpen your mind with memory games, puzzles, and logic tests. BrainBoost is perfect for learners and thinkers.",
+      "features": [
+        "Brain training games",
+        "Daily challenges",
+        "Progress tracking"
+      ],
+      "reviews": [
+        {
+          "user": "logic_lover",
+          "rating": 4,
+          "comment": "Fun and educational. Great for mental workouts."
+        }
+      ]
+    },
+    {
+      "id": "app007",
+      "name": "BattleArena",
+      "developer": "WarZone Games",
+      "thumbnail": "https://i.ibb.co/9NNYmJX/battlearena-thumb.jpg",
+      "banner": "https://i.ibb.co/CmHPgZG/battlearena-banner.jpg",
+      "downloads": 3200000,
+      "category": "Gaming",
+      "rating": 4.9,
+      "description": "Jump into the action with BattleArena, a real-time multiplayer strategy game. Team up, plan attacks, and dominate the arena.",
+      "features": [
+        "Real-time multiplayer",
+        "Strategy and battle planning",
+        "Seasonal rewards"
+      ],
+      "reviews": [
+        {
+          "user": "warrior_kai",
+          "rating": 5,
+          "comment": "Best competitive game out there. Runs smoothly even on older devices."
+        }
+      ]
+    },
+    {
+      "id": "app008",
+      "name": "NoteNest",
+      "developer": "CreativeNest",
+      "thumbnail": "https://i.ibb.co/FYQ3twn/notenest-thumb.jpg",
+      "banner": "https://i.ibb.co/zVv6XSp/notenest-banner.jpg",
+      "downloads": 780000,
+      "category": "Productivity",
+      "rating": 4.2,
+      "description": "Take notes, organize ideas, and share with others. NoteNest is your digital notebook with cloud sync.",
+      "features": [
+        "Markdown support",
+        "Tag-based organization",
+        "Cloud backup"
+      ],
+      "reviews": [
+        {
+          "user": "note_freak",
+          "rating": 4,
+          "comment": "Love the simplicity and syncing across devices."
+        }
+      ]
+    }
+  ]
+  
