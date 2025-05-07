@@ -5,6 +5,7 @@ import Home from "../pages/Home";
 import Profile from "../pages/profile";
 import Error from "../pages/Error";
 import AppDetails from "../pages/AppDetails";
+import Auth from "../pages/Auth";
 
 
 
@@ -26,9 +27,13 @@ const router= createBrowserRouter(
                 {
                     path:'/app-details',
                     element: <AppDetails/>,
-                    loader: () => fetch('../app.json'),
+                    loader: () => fetch('../appData.json'),
                 }
             ]
+        },
+        {
+            path:"/auth",
+            element: <Auth/>
         },
         
     ]
