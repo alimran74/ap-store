@@ -1,186 +1,375 @@
 [
     {
-      "id": "app001",
+      "id": "edu001",
       "name": "Programming Hero",
       "developer": "Programming Hero Ltd.",
-      "thumbnail": "https://i.ibb.co/sWbb4Z5/programming-hero-thumb.jpg",
-      "banner": "https://i.ibb.co/vj5rT68/programming-hero-banner.jpg",
+      "thumbnail": "https://i.ibb.co.com/pjZXvQBx/318784001-196471309592513-4235440144505352455-n.png",
+      "banner": "https://i.ibb.co.com/nN93rk6R/481680208-662767409629565-6346731860673397098-n.png",
       "downloads": 3500000,
       "category": "Education",
       "rating": 4.8,
-      "description": "Programming Hero is a fun and interactive way to learn programming. Whether you're a beginner or looking to brush up your skills, this app makes learning to code exciting and practical.",
+      "description": "Learn to code with fun and interactive lessons, real-world projects, and gamified content.",
       "features": [
-        "Interactive coding lessons",
-        "Real-world projects",
-        "Gamified learning experience"
+        "Interactive lessons",
+        "Gamification",
+        "Real-world projects"
       ],
       "reviews": [
         {
-          "user": "coder_nadia",
-          "rating": 5,
-          "comment": "Best app for beginners! The lessons are super easy to follow and engaging."
-        }
-      ]
+        "username": "Jahid_Dev",
+        "comment": "Best app for learning programming in Bengali. Very engaging!",
+        "rating": 5
+      }
+    ]
     },
     {
-      "id": "app002",
-      "name": "FocusFlow",
-      "developer": "Zen Productivity Inc.",
-      "thumbnail": "https://i.ibb.co/02vc0tc/focusflow-thumb.jpg",
-      "banner": "https://i.ibb.co/6WzDNhx/focusflow-banner.jpg",
-      "downloads": 1250000,
-      "category": "Productivity",
-      "rating": 4.6,
-      "description": "FocusFlow helps you manage time and tasks using the Pomodoro technique. Boost your productivity while staying focused and stress-free.",
-      "features": [
-        "Pomodoro timer",
-        "Daily productivity reports",
-        "Custom task manager"
-      ],
-      "reviews": [
-        {
-          "user": "taskmaster_joe",
-          "rating": 5,
-          "comment": "Amazing productivity booster! The timer and reports keep me disciplined."
-        }
-      ]
-    },
-    {
-      "id": "app003",
-      "name": "GameRush",
-      "developer": "SpeedPixel Studios",
-      "thumbnail": "https://i.ibb.co/hfJ6ZbT/gamerush-thumb.jpg",
-      "banner": "https://i.ibb.co/vZkWJxz/gamerush-banner.jpg",
-      "downloads": 2000000,
-      "category": "Gaming",
-      "rating": 4.5,
-      "description": "GameRush is your all-in-one mobile gaming hub with hundreds of arcade games to kill time and challenge your skills.",
-      "features": [
-        "Hundreds of games",
-        "Leaderboard system",
-        "Multiplayer mode"
-      ],
-      "reviews": [
-        {
-          "user": "arcade_lord",
-          "rating": 4,
-          "comment": "Super addictive! Great for short breaks and chilling out."
-        }
-      ]
-    },
-    {
-      "id": "app004",
-      "name": "EduMate",
-      "developer": "SmartEd Technologies",
-      "thumbnail": "https://i.ibb.co/bBtL9yk/edumate-thumb.jpg",
-      "banner": "https://i.ibb.co/PZDL2CK/edumate-banner.jpg",
-      "downloads": 1100000,
+      "id": "edu002",
+      "name": "Duolingo",
+      "developer": "Duolingo Inc.",
+      "thumbnail": "https://i.ibb.co.com/GYv2S2k/icon.png",
+      "banner": "https://i.ibb.co.com/1YJ0JS7n/Duolingo-Banner-1920x1080-1.png",
+      "downloads": 50000000,
       "category": "Education",
       "rating": 4.7,
-      "description": "EduMate provides personalized learning paths, quizzes, and resources for students from grade 6 to 12.",
+      "description": "Learn languages quickly with bite-sized lessons and quizzes.",
       "features": [
-        "Adaptive learning modules",
-        "Instant quiz feedback",
-        "Offline access"
+        "Multiple languages",
+        "Progress tracking",
+        "Daily goals"
       ],
       "reviews": [
         {
-          "user": "learn_wise",
-          "rating": 5,
-          "comment": "Very effective for school students. Highly recommended!"
+            "username": "Jahid_Dev",
+            "comment": "Best app for learning programming in Bengali. Very engaging!",
+            "rating": 5
+          }
+      ]
+    },
+    {
+      "id": "edu003",
+      "name": "Khan Academy",
+      "developer": "Khan Academy",
+      "thumbnail": "https://i.ibb.co.com/ZRcNJQ02/khan-academy-seeklogo.png",
+      "banner": "https://i.ibb.co.com/ZvjNVVL/9300512.png",
+      "downloads": 10000000,
+      "category": "Education",
+      "rating": 4.6,
+      "description": "Free education on various subjects including math, science, and economics.",
+      "features": [
+        "Video lectures",
+        "Practice quizzes",
+        "Progress dashboard"
+      ],
+      "reviews": [
+        {
+            "username": "Maya123",
+            "comment": "Really enjoying the course structure and projects. Highly recommended!",
+            "rating": 4.8
         }
       ]
     },
     {
-      "id": "app005",
-      "name": "TaskHawk",
-      "developer": "TaskHawk LLC",
-      "thumbnail": "https://i.ibb.co/9GHrC7y/taskhawk-thumb.jpg",
-      "banner": "https://i.ibb.co/ZSmBMhS/taskhawk-banner.jpg",
-      "downloads": 870000,
+      "id": "edu004",
+      "name": "Udemy",
+      "developer": "Udemy Inc.",
+      "thumbnail": "https://i.ibb.co.com/sv6wd4WN/udemy-seeklogo.png",
+      "banner": "https://i.ibb.co.com/PGk0gnVj/learning-education-ideas-insight-intelligence-study-concept.png",
+      "downloads": 20000000,
+      "category": "Education",
+      "rating": 4.5,
+      "description": "Affordable online courses on development, business, and more.",
+      "features": [
+        "Affordable pricing",
+        "Expert instructors",
+        "Lifetime access"
+      ],
+      "reviews": [
+        {
+            "username": "Maya123",
+            "comment": "Really enjoying the course structure and projects. Highly recommended!",
+            "rating": 4.8
+        }
+      ]
+    },
+  
+    {
+      "id": "game001",
+      "name": "Clash of Clans",
+      "developer": "Supercell",
+      "thumbnail": "https://i.ibb.co.com/0RLywH7M/coc-icon-45744.png",
+      "banner": "https://i.ibb.co.com/9HWkTqjx/580b57fcd9996e24bc43c51c.png",
+      "downloads": 100000000,
+      "category": "Gaming",
+      "rating": 4.6,
+      "description": "Build your village, raise a clan, and compete in epic clan wars.",
+      "features": [
+        "Clan wars",
+        "Resource management",
+        "Multiplayer battles"
+      ],
+      "reviews": [
+        {
+            "username": "Arman_YT",
+            "comment": "Addictive game! I've been playing for 3 years!",
+            "rating": 5
+          }
+      ]
+    },
+    {
+      "id": "game002",
+      "name": "Among Us",
+      "developer": "Innersloth",
+      "thumbnail": "https://i.ibb.co.com/N6hnqgYN/among-us-seeklogo.png",
+      "banner": "https://i.ibb.co.com/d00QMK9c/61d182f93a856e0004c63348.png",
+      "downloads": 50000000,
+      "category": "Gaming",
+      "rating": 4.4,
+      "description": "Multiplayer game of teamwork and betrayal in space!",
+      "features": [
+        "Multiplayer mode",
+        "Fun characters",
+        "Custom rooms"
+      ],
+      "reviews": [
+        {
+            "username": "Arman_YT",
+            "comment": "Addictive game! I've been playing for 3 years!",
+            "rating": 5
+          }
+      ]
+    },
+    {
+      "id": "game003",
+      "name": "Call of Duty Mobile",
+      "developer": "Activision",
+      "thumbnail": "https://i.ibb.co.com/NgcpHZ3L/d6ab8a5913345c3f00f43ff23ef8fee5.png",
+      "banner": "https://i.ibb.co.com/7FdxytL/580b57fcd9996e24bc43c29c.png",
+      "downloads": 80000000,
+      "category": "Gaming",
+      "rating": 4.5,
+      "description": "Top-rated FPS with real-time PvP multiplayer and battle royale.",
+      "features": [
+        "PvP matches",
+        "Customizable weapons",
+        "Various maps"
+      ],
+      "reviews": [
+        {
+            "username": "NoobMaster69",
+            "comment": "Fun gameplay but higher levels need a lot of time or money.",
+            "rating": 4
+          }
+      
+      ]
+    },
+    {
+      "id": "game004",
+      "name": "Candy Crush Saga",
+      "developer": "King",
+      "thumbnail": "https://i.ibb.co.com/DfVvbsHj/pngegg.png",
+      "banner": "https://i.ibb.co.com/2Yjz9HtH/580b57fcd9996e24bc43c517.png",
+      "downloads": 1000000000,
+      "category": "Gaming",
+      "rating": 4.3,
+      "description": "Sweet puzzle game with hundreds of challenging levels.",
+      "features": [
+        "Colorful graphics",
+        "Daily rewards",
+        "Offline play"
+      ],
+      "reviews": [
+        {
+            "username": "NoobMaster69",
+            "comment": "Fun gameplay but higher levels need a lot of time or money.",
+            "rating": 4
+          }
+      
+      ]
+    },
+  
+    {
+      "id": "prod001",
+      "name": "Notion",
+      "developer": "Notion Labs",
+      "thumbnail": "https://i.ibb.co.com/hFPdkYkF/prod-logo-png-3.png",
+      "banner": "https://i.ibb.co.com/wVFgBQy/62cc159e150d5de9a3dad5ec.png",
+      "downloads": 10000000,
+      "category": "Productivity",
+      "rating": 4.8,
+      "description": "All-in-one workspace for notes, tasks, and projects.",
+      "features": [
+        "Custom pages",
+        "Team collaboration",
+        "Calendar integration"
+      ],
+      "reviews": [
+        {
+            "username": "SadiaAli",
+            "comment": "Best note-taking and task management tool I’ve ever used!",
+            "rating": 5
+          }
+      ]
+    },
+    {
+      "id": "prod002",
+      "name": "Google Keep",
+      "developer": "Google LLC",
+      "thumbnail": "https://i.ibb.co.com/pv6Wh0Sx/prod-logo-png-4.png",
+      "banner": "https://i.ibb.co.com/LGrQsQF/person-holding-google-plus-icon.png",
+      "downloads": 500000000,
+      "category": "Productivity",
+      "rating": 4.6,
+      "description": "Simple note-taking with syncing across all devices.",
+      "features": [
+        "Labeling and colors",
+        "Voice notes",
+        "Reminders"
+      ],
+      "reviews": [
+        {
+            "username": "SadiaAli",
+            "comment": "Best note-taking and task management tool I’ve ever used!",
+            "rating": 5
+          }
+      ]
+    },
+    {
+      "id": "prod003",
+      "name": "Trello",
+      "developer": "Atlassian",
+      "thumbnail": "https://i.ibb.co.com/xSdNBfx7/prod-logo-png-2.png",
+      "banner": "https://i.ibb.co.com/8DpxsPdm/trello-logo-png-seeklogo-296832-removebg-preview.png",
+      "downloads": 10000000,
+      "category": "Productivity",
+      "rating": 4.5,
+      "description": "Organize tasks and projects visually with drag-and-drop boards.",
+      "features": [
+        "Boards and cards",
+        "Team assignments",
+        "Power-ups integration"
+      ],
+      "reviews": [
+        {
+            "username": "DevDipto",
+            "comment": "Super flexible and powerful for both personal and team use.",
+            "rating": 4.9
+          }
+      ]
+    },
+    {
+      "id": "prod004",
+      "name": "Slack",
+      "developer": "Slack Technologies",
+      "thumbnail": "https://i.ibb.co.com/cXtYW07H/slack-technologies-logo-png-seeklogo-354122.png",
+      "banner": "https://i.ibb.co.com/C59C3Pgj/slack-technologies-logo-png-seeklogo-354122-removebg-preview.png",
+      "downloads": 50000000,
       "category": "Productivity",
       "rating": 4.4,
-      "description": "Organize your tasks and boost your efficiency. TaskHawk makes team collaboration and goal tracking a breeze.",
+      "description": "Business messaging and collaboration platform.",
       "features": [
-        "Smart task management",
-        "Team collaboration",
-        "Goal tracking"
+        "Channels",
+        "Voice/video calls",
+        "File sharing"
       ],
       "reviews": [
         {
-          "user": "plan_pro",
-          "rating": 4,
-          "comment": "Helps me manage both personal and team tasks very well."
-        }
+            "username": "DevDipto",
+            "comment": "Super flexible and powerful for both personal and team use.",
+            "rating": 4.9
+          }
+      ]
+    },
+  
+    {
+      "id": "health001",
+      "name": "MyFitnessPal",
+      "developer": "Under Armour",
+      "thumbnail": "https://i.ibb.co.com/1Y0PrXfY/healthlogo-1.png",
+      "banner": "https://i.ibb.co.com/FkTb524y/health-banner-4.png",
+      "downloads": 10000000,
+      "category": "Health",
+      "rating": 4.7,
+      "description": "Track calories, meals, and exercises for a healthier lifestyle.",
+      "features": [
+        "Calorie tracker",
+        "Meal logging",
+        "Workout tracking"
+      ],
+      "reviews": [
+        {
+            "username": "ImranFitness",
+            "comment": "Helped me lose 5 kg in a month! Very accurate and easy to use.",
+            "rating": 5
+          }
       ]
     },
     {
-      "id": "app006",
-      "name": "BrainBoost",
-      "developer": "NeuroLab",
-      "thumbnail": "https://i.ibb.co/1GpGjW1/brainboost-thumb.jpg",
-      "banner": "https://i.ibb.co/5KhcCJB/brainboost-banner.jpg",
-      "downloads": 950000,
-      "category": "Education",
-      "rating": 4.3,
-      "description": "Sharpen your mind with memory games, puzzles, and logic tests. BrainBoost is perfect for learners and thinkers.",
+      "id": "health002",
+      "name": "Headspace",
+      "developer": "Headspace Inc.",
+      "thumbnail": "https://i.ibb.co.com/p6wCHyrr/healthlogo-1.png",
+      "banner": "https://i.ibb.co.com/CprBP16Q/health-banner-3.png",
+      "downloads": 10000000,
+      "category": "Health",
+      "rating": 4.6,
+      "description": "Meditation and mindfulness app for stress relief and better sleep.",
       "features": [
-        "Brain training games",
-        "Daily challenges",
-        "Progress tracking"
+        "Guided meditations",
+        "Sleep sounds",
+        "Daily reminders"
       ],
       "reviews": [
         {
-          "user": "logic_lover",
-          "rating": 4,
-          "comment": "Fun and educational. Great for mental workouts."
-        }
+            "username": "ImranFitness",
+            "comment": "Helped me lose 5 kg in a month! Very accurate and easy to use.",
+            "rating": 5
+          }
       ]
     },
     {
-      "id": "app007",
-      "name": "BattleArena",
-      "developer": "WarZone Games",
-      "thumbnail": "https://i.ibb.co/9NNYmJX/battlearena-thumb.jpg",
-      "banner": "https://i.ibb.co/CmHPgZG/battlearena-banner.jpg",
-      "downloads": 3200000,
-      "category": "Gaming",
-      "rating": 4.9,
-      "description": "Jump into the action with BattleArena, a real-time multiplayer strategy game. Team up, plan attacks, and dominate the arena.",
+      "id": "health003",
+      "name": "Samsung Health",
+      "developer": "Samsung Electronics",
+      "thumbnail": "https://i.ibb.co.com/RkdNTCKr/healthlogo-2.png",
+      "banner": "https://i.ibb.co.com/twDXjW85/health-banner-2.png",
+      "downloads": 100000000,
+      "category": "Health",
+      "rating": 4.5,
+      "description": "Comprehensive fitness tracking and health data management.",
       "features": [
-        "Real-time multiplayer",
-        "Strategy and battle planning",
-        "Seasonal rewards"
+        "Step counter",
+        "Heart rate monitor",
+        "Diet logging"
       ],
       "reviews": [
         {
-          "user": "warrior_kai",
-          "rating": 5,
-          "comment": "Best competitive game out there. Runs smoothly even on older devices."
-        }
+            "username": "Nila_H",
+            "comment": "Excellent app for diet tracking, but the premium version is expensive.",
+            "rating": 4.5
+          }
       ]
     },
     {
-      "id": "app008",
-      "name": "NoteNest",
-      "developer": "CreativeNest",
-      "thumbnail": "https://i.ibb.co/FYQ3twn/notenest-thumb.jpg",
-      "banner": "https://i.ibb.co/zVv6XSp/notenest-banner.jpg",
-      "downloads": 780000,
-      "category": "Productivity",
-      "rating": 4.2,
-      "description": "Take notes, organize ideas, and share with others. NoteNest is your digital notebook with cloud sync.",
+      "id": "health004",
+      "name": "Water Reminder",
+      "developer": "Health Apps Studio",
+      "thumbnail": "https://i.ibb.co.com/7dD2cDcd/healthlogo-3.png",
+      "banner": "https://i.ibb.co.com/sppyKYcS/health-banner-1.png",
+      "downloads": 5000000,
+      "category": "Health",
+      "rating": 4.4,
+      "description": "Stay hydrated with regular reminders to drink water.",
       "features": [
-        "Markdown support",
-        "Tag-based organization",
-        "Cloud backup"
+        "Custom reminders",
+        "Water intake tracker",
+        "Hydration history"
       ],
       "reviews": [
         {
-          "user": "note_freak",
-          "rating": 4,
-          "comment": "Love the simplicity and syncing across devices."
-        }
+            "username": "Nila_H",
+            "comment": "Excellent app for diet tracking, but the premium version is expensive.",
+            "rating": 4.5
+          }
       ]
     }
   ]
