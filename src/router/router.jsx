@@ -5,7 +5,10 @@ import Home from "../pages/Home";
 import Profile from "../pages/profile";
 import Error from "../pages/Error";
 import AppDetails from "../pages/AppDetails";
-import Auth from "../pages/Auth";
+
+import Login from "../pages/Login";
+import AuthLayout from "../layouts/AuthLayout";
+import Register from "../pages/Register";
 
 
 
@@ -24,16 +27,28 @@ const router= createBrowserRouter(
                     path:'profile',
                     element: <Profile/>,
                 },
-                {
-                    path:'/app-details',
-                    element: <AppDetails/>,
-                    loader: () => fetch('../appData.json'),
-                }
+               
             ]
         },
         {
             path:"/auth",
-            element: <Auth/>
+            element: <AuthLayout/>,
+            children:[
+                {
+                    path:"/auth/login",
+                    element: <Login/>
+                },
+                {
+                    path:"/auth/register",
+                    element: <Register/>
+                },
+
+            ]
+        },
+        {
+            path:'/app-details',
+            element: <AppDetails/>,
+            loader: () => fetch('../appData.json'),
         },
         
     ]

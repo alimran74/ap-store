@@ -1,7 +1,9 @@
-import React from 'react';
-import { NavLink } from 'react-router';
+import React, { use } from 'react';
+import { Link, NavLink } from 'react-router';
+import { AuthContext } from '../provider/AuthProvider';
 
 const Navbar = () => {
+  const {user} = use(AuthContext);
     return (
         <div className="navbar bg-base-100 shadow-sm">
   <div className="navbar-start">
@@ -33,13 +35,20 @@ const Navbar = () => {
        </ul>
   </div>
   <div className="navbar-end mr-2 ">
-<NavLink to="auth"><a href="#_" class="px-5 py-2.5 relative rounded group overflow-hidden font-medium bg-purple-50 text-purple-600 inline-block">
+    <div className='text-purple-500 mx-2'>{user &&(
+  <div className="text-purple-600 font-semibold mx-2 animate-slideIn">
+    👋 Welcome, {user.name || "User"} 
+  </div>
+)}</div>
+<Link to="/auth/login"><a href="#_" class="px-5 py-2.5 relative rounded group overflow-hidden font-medium bg-purple-50 text-purple-600 inline-block">
     <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-purple-600 group-hover:h-full opacity-90"></span>
     <span className="relative group-hover:text-white">Login</span>
-</a> </NavLink>
+</a> </Link>
   </div>
 </div>
     );
 };
 
 export default Navbar;
+
+
