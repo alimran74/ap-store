@@ -1,9 +1,11 @@
 import React, { use, useEffect, useState } from 'react';
 import { AuthContext } from '../provider/AuthProvider';
-import { useNavigate } from 'react-router';
+import {  useNavigate } from 'react-router';
+
 
 const AppsContainer = () => {
     const [apps, setApps] = useState([]);
+
     useEffect(() =>{
         fetch('/appData.json')
         .then(res => res.json())
@@ -22,6 +24,9 @@ const AppsContainer = () => {
       }
     };
 
+    
+ 
+
     const educationApps = apps.filter(app => app.category === 'Education');
 
     const gameApps = apps.filter(app => app.category === 'Gaming');
@@ -29,6 +34,8 @@ const AppsContainer = () => {
     const productivityApps = apps.filter(app => app.category === 'Productivity');
 
     const healthApps = apps.filter(app => app.category === 'Health');
+
+
 
     return (
 
