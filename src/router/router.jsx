@@ -46,9 +46,9 @@ const router= createBrowserRouter(
             ]
         },
         {
-            path:'/app-details',
+            path:'/apps/:appId',
             element: <AppDetails/>,
-            loader: () => fetch('../appData.json'),
+            loader: () => fetch('/appData.json'),
         },
         
     ]
