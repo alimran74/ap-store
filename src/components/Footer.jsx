@@ -5,7 +5,7 @@ const Footer = () => {
         <div>
             <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
   <aside>
-    <p>Copyright © {new Date().getFullYear()} - All right reserved by PH-App Store</p>
+    <p>Copyright © {new Date().getFullYear()} - All right reserved   by Al Imran</p>
   </aside>
 </footer>
         </div>

@@ -27,6 +27,11 @@ const router= createBrowserRouter(
                     path:'profile',
                     element: <Profile/>,
                 },
+                {
+                    path:'/apps/:appId',
+                    element: <AppDetails/>,
+                    loader:  () => fetch('/appData.json'),
+                },
                
             ]
         },
@@ -45,11 +50,7 @@ const router= createBrowserRouter(
 
             ]
         },
-        {
-            path:'/apps/:appId',
-            element: <AppDetails/>,
-            loader: () => fetch('/appData.json'),
-        },
+       
         
     ]
 );
