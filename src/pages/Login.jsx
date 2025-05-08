@@ -8,8 +8,11 @@ const Login = () => {
                 <h1 className='font-semibold text-2xl text-center py-5'>Login to Your Account</h1>
       <div className="card-body">
         <fieldset className="fieldset">
+            {/* email */}
           <label className="label">Email</label>
           <input type="email" className="input" placeholder="Email" />
+
+          {/* password */}
           <label className="label">Password</label>
           <input type="password" className="input" placeholder="Password" />
           <div><a className="link link-hover">Forgot password?</a></div>

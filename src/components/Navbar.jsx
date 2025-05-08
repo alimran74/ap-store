@@ -1,9 +1,17 @@
 import React, { use } from 'react';
 import { Link, NavLink } from 'react-router';
 import { AuthContext } from '../provider/AuthProvider';
+import { toast } from 'react-toastify';
 
 const Navbar = () => {
-  const {user} = use(AuthContext);
+  const {user, logOut} = use(AuthContext);
+  const handleLogOut=()=>{
+    logOut().then(()=>{
+      toast.success('Log Out Successfully')
+    }).catch((error)=>{
+      toast.error('❌ Logout Unsuccessful')
+    });
+  }
     return (
         <div className="navbar bg-base-100 shadow-sm">
   <div className="navbar-start">
@@ -36,14 +44,23 @@ const Navbar = () => {
   </div>
   <div className="navbar-end mr-2 ">
     <div className='text-purple-500 mx-2'>{user &&(
-  <div className="text-purple-600 font-semibold mx-2 animate-slideIn">
-    👋 Welcome, {user.name || "User"} 
+  <div className="text-purple-600 font-semibold mx-2 animate-slideIn flex"> 
+    👋 Welcome, {user.displayName || ""} 
   </div>
 )}</div>
-<Link to="/auth/login"><a href="#_" class="px-5 py-2.5 relative rounded group overflow-hidden font-medium bg-purple-50 text-purple-600 inline-block">
-    <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-purple-600 group-hover:h-full opacity-90"></span>
+
+  {
+    user ? (
+      <button onClick={handleLogOut} className="px-5 py-2.5 relative rounded group overflow-hidden font-medium bg-red-100 text-red-500 inline-block">
+      <span className="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-red-500 group-hover:h-full opacity-90"></span>
+      <span className="relative group-hover:text-white">Logout</span></button>
+    ) :
+     (<Link to="/auth/login" className="px-5 py-2.5 relative rounded group overflow-hidden font-medium bg-purple-50 text-purple-600 inline-block">
+    <span className="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-purple-600 group-hover:h-full opacity-90"></span>
     <span className="relative group-hover:text-white">Login</span>
-</a> </Link>
+ </Link>)
+  }
+
   </div>
 </div>
     );
