@@ -47,7 +47,7 @@ const Navbar = () => {
   <div className="text-purple-600 font-semibold mx-2 animate-slideIn flex"> 
     👋 Welcome, {user.displayName || ""} 
   </div>
-)}</div>
+)}</div>                                                                           
 
   {
     user ? (
